@@ -1,6 +1,8 @@
-QT = core printsupport
+QT = core gui printsupport
 
 CONFIG += c++17 cmdline
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
